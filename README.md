@@ -14,7 +14,7 @@ CKModalDialog::getInstance()->popContentView();
 ```
 You can push as many views as you want,and ModalDialog will manage them for you
 
-APIS
+###APIS
 ```
     void pushContentView(cocos2d::Node *pNode);
     void pushContentView(cocos2d::Node *pNode,Point position);
